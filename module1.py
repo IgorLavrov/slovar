@@ -48,7 +48,8 @@ def change(f,t,str):
                 c.write(b)
                 c.truncate()        
         c.close()
-       
+        print("words were deleted")
+        add(f,t)
      else:   
         p=input("no such word, would you like to add it yes/no:")
         if p.lower()=="yes":
