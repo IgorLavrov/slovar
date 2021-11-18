@@ -27,7 +27,7 @@ def add(f,t):
 def change(f,t,str):
      w3=f.count(str)
      w4=t.count(str)
-     if w3 >=1 or w4>=1:
+     if w3 >=1:
         g = open("TextFile1.txt","r+")
         d = g.readlines()
         g.seek(0)
@@ -42,12 +42,34 @@ def change(f,t,str):
             elif i.rstrip('\n')== str:
                n=d.index(i)
         g.close()
-        print(n)
         for b in h:
             if h.index(b)!=n:
                 c.write(b)
                 c.truncate()        
         c.close()
+        print("words were deleted")
+        add(f,t)
+     elif w4>=1:
+        g1 = open("TextFile1.txt","r+")
+        d1= g1.readlines()
+        g1.seek(0)
+        c1= open("TextFile2.txt","r+")
+        h1= c1.readlines()
+        c1.seek(0)
+        n1=0
+        for i1 in h1 :
+            if i1.rstrip('\n')!= str :
+                g1.write(i1)
+                g1.truncate() 
+            elif i1.rstrip('\n')== str:
+               n1=h1.index(i1)
+        g1.close()
+        print(n1)
+        for b1 in d1:
+            if d1.index(b1)!=n1:
+                c1.write(b1)
+                c1.truncate()        
+        c1.close()
         print("words were deleted")
         add(f,t)
      else:   
