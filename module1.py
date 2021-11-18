@@ -103,7 +103,7 @@ def check (f,t):
    procent1=wrong/5*100
    if procent>0:
        print("correct answered",procent,"%")
-       print("wrong answered",procent,"%")
+       print("wrong answered",procent1,"%")
    else:
        print("correct answered",0,"%")
        print("wrong answered",procent1,"%")
