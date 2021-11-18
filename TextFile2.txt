@@ -1,7 +1,8 @@
 kass
-koer
 kodu
 arst
 maja
 auto
 kevad
+tanav
+koer

@@ -1,7 +1,8 @@
 cat
-dog
 home
 doctor
 building
 car
 spring
+street
+dog
