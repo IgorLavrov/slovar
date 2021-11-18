@@ -6,3 +6,6 @@ auto
 kevad
 tanav
 koer
+ema
+isa
+vend

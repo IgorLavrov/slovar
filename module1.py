@@ -21,7 +21,8 @@ def add(f,t):
     text3=input("write this word on estonian:-")
     with  open("TextFile2.txt",'a') as g:
                 g.write("\n"+text3)
-    return f and t
+
+    print("added")
 
 def change(f,t,str):
      w3=f.count(str)

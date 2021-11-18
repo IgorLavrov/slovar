@@ -6,3 +6,6 @@ car
 spring
 street
 dog
+mother
+farther
+brother

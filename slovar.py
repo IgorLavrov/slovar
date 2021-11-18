@@ -11,7 +11,7 @@ while 1:
       word=input("Your word-")
       translate_list(eng_list,est_list,word)
     elif valik.lower()=="e":
-       eng_list,est_list=add(eng_list,est_list)
+       add(eng_list,est_list)
     elif valik.lower()=="r":
         word=input("Your word-")
         change(eng_list,est_list,word)
