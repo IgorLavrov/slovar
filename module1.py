@@ -9,12 +9,10 @@ def translate_list(f,t,str):
                add(f,t)
        elif valikyes.lower()=="no":
              quit() 
-    elif w!=0 and w2!=0:
-        for i in range(N):
-            if str== t[i] or str==f[i]:
-                print(f[i]," meaning-->",t[i])
-    elif str!=t[i] or str!=f[i]:
-       print(" wrong word")
+    elif w!=0 or w2!=0:
+        for il in range(len(f)):
+            if str== t[il] or str==f[il]:
+                print(f[il]," meaning-->",t[il])
       
 def add(f,t):
     text2=input("write this on english:-")
