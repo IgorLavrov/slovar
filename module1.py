@@ -8,7 +8,7 @@ def translate_list(f,t,str):
        if valikyes.lower()=="yes":
                add(f,t)
        elif valikyes.lower()=="no":
-             quit() 
+             return None 
     elif w!=0 or w2!=0:
         for il in range(len(f)):
             if str== t[il] or str==f[il]:
@@ -60,8 +60,8 @@ def check (f,t):
    correct=0
    wrong=0 
    procent=0
+   s=input(" choice eng/est:-")
    for k in range (5):
-    s=input(" choice eng/est:-")
     if s.lower()=="eng":
          x=random.choice(f)
          print(x)
@@ -98,6 +98,9 @@ def check (f,t):
                     print("wrong")
                     print(y_answer1,"-supposed to be-",f[n3])
                     wrong+=1
+    else:
+           print("choose corrent language")
+           return None
    procent1=0
    procent=correct/5*100
    procent1=wrong/5*100
