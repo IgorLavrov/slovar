@@ -1,5 +1,4 @@
 home
-doctor
 building
 car
 spring
@@ -9,3 +8,5 @@ mother
 farther
 brother
 kass
+arst
+puu

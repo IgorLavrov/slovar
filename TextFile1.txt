@@ -1,5 +1,4 @@
 kodu
-arst
 maja
 auto
 kevad
@@ -9,3 +8,5 @@ ema
 isa
 vend
 cat
+doctor
+tree
