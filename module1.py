@@ -1,6 +1,6 @@
 import random
 def translate_list(f,t,str):
-    priont(loe_failist("TextFile1.txt"))
+    print(loe_failist("TextFile1.txt"))
     print(loe_failist("TextFile2.txt"))
     N=len(f)
     w=f.count(str)
