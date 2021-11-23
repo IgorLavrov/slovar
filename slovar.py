@@ -6,7 +6,7 @@ print(est_list)
 
 
 while 1:
-    print("a-translate fom estonian to english and vice versa,\ne-add to dictonary,\nr-change words pair,\nt-check your knowledge")
+    print("a-translate fom estonian to english and vice versa,\ne-add to dictonary,\nr-change words pair,\nt-check your knowledge,\nc- pronounce words")
     valik=input("Your choice:")
     if valik.lower()=="a":
       word=input("Your word-")
@@ -20,3 +20,14 @@ while 1:
         change(eng_list,est_list,word)
     elif valik.lower()=="t":
         check(eng_list,est_list)
+    elif valik.lower()=="c":
+        input1=input(" choice eng/est:-")
+        sonad="" 
+        if input1.lower()=="eng":
+                for sona in eng_list:
+                    sonad=sonad+""+sona
+                heli(sonad,'en')
+        if input1.lower()=="est":
+                for sona in est_list:
+                    sonad=sonad+""+sona
+                heli(sonad,'fi')

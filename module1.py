@@ -146,3 +146,9 @@ def loe_failist(f):
         mas.append(rida.strip())
     fail.close()
     return mas
+
+from gtts import gTTS
+import os
+def heli(text:str,language:str):
+    obj=gTTS(text=text,lang=language,slow=False).save("heli.mp3")
+    os.system("heli.mp3")
