@@ -12,6 +12,8 @@ while 1:
       translate_list(eng_list,est_list,word)
     elif valik.lower()=="e":
        add(eng_list,est_list)
+       est_list=loe_failist("TextFile2.txt")
+       eng_list=loe_failist("TextFile1.txt")
     elif valik.lower()=="r":
         word=input("Your word-")
         change(eng_list,est_list,word)

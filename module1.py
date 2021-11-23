@@ -23,14 +23,10 @@ def add(f,t):
     text3=input("write this word on estonian:-")
     with  open("TextFile2.txt",'a') as g:
            g.write("\n"+text3)  
-    loe_failist("TextFile1.txt")       
-    loe_failist("TextFile2.txt")
     print("added")
     return None
 
 def change(f,t,str):
-     loe_failist("TextFile1.txt")
-     loe_failist("TextFile2.txt")
      w3=f.count(str)
      w4=t.count(str)
      if w3 >=1:
