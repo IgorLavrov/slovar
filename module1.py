@@ -1,5 +1,7 @@
 import random
 def translate_list(f,t,str):
+    priont(loe_failist("TextFile1.txt"))
+    print(loe_failist("TextFile2.txt"))
     N=len(f)
     w=f.count(str)
     w2=t.count(str)
@@ -21,10 +23,11 @@ def add(f,t):
     text3=input("write this word on estonian:-")
     with  open("TextFile2.txt",'a') as g:
                 g.write("\n"+text3)
-
     print("added")
 
 def change(f,t,str):
+     loe_failist("TextFile1.txt")
+     loe_failist("TextFile2.txt")
      w3=f.count(str)
      w4=t.count(str)
      if w3 >=1:
@@ -80,6 +83,8 @@ def change(f,t,str):
              quit() 
             
 def check (f,t):
+   loe_failist("TextFile1.txt")
+   loe_failist("TextFile2.txt")
    correct=0
    wrong=0 
    procent=0
