@@ -20,13 +20,11 @@ def add(f,t):
            h.write("\n"+text2)
     text3=input("write this word on estonian:-")
     with  open("TextFile2.txt",'a') as g:
-            g.write("\n"+text3)
+                g.write("\n"+text3)
+
     print("added")
-    return None
 
 def change(f,t,str):
-     loe_failist("TextFile1.txt")
-     loe_failist("TextFile2.txt")
      w3=f.count(str)
      w4=t.count(str)
      if w3 >=1:
@@ -136,6 +134,10 @@ def check (f,t):
        print("correct answered",0,"%")
        print("wrong answered",procent1,"%")
 
+    
+
+
+
 def loe_failist(f):
     fail=open(f,'r',encoding="utf-8-sig")
     mas=[] 
@@ -143,4 +145,3 @@ def loe_failist(f):
         mas.append(rida.strip())
     fail.close()
     return mas
-
