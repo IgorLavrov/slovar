@@ -4,6 +4,7 @@ est_list=loe_failist("TextFile2.txt")
 print(eng_list)
 print(est_list)
 
+
 while 1:
     print("a-translate fom estonian to english and vice versa,\ne-add to dictonary,\nr-change words pair,\nt-check your knowledge")
     valik=input("Your choice:")

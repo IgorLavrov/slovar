@@ -5,9 +5,8 @@ auto
 kevad
 tanav
 koer
-ema
 isa
 vend
 cat
 tree
-list
+ema

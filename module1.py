@@ -138,9 +138,6 @@ def check (f,t):
        print("correct answered",0,"%")
        print("wrong answered",procent1,"%")
 
-    
-
-
 
 def loe_failist(f):
     fail=open(f,'r',encoding="utf-8-sig")

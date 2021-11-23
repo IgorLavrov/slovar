@@ -5,9 +5,8 @@ car
 spring
 street
 dog
-mother
 farther
 brother
 kass
 puu
-list
+mother
